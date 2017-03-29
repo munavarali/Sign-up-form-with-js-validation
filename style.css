@@ -1,0 +1,53 @@
+h1{
+	position: relative;
+	text-align: center;
+	margin-left: 30px;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+
+#user_name, #user_email, #user_pwd, #usercp_pwd{
+	font-family: verdana;
+    font-size: 16px;
+    color: red;
+    margin-left: 50px;
+}
+
+
+input {
+    height: 36px;
+    border-radius: 2px;
+    width: 40%;
+    color: #000000;
+    border: 2px solid #dee5ef;
+    border-radius: 6px;
+  	margin-bottom: 20px;
+  	margin-left: 40px;
+  	font-size: 18px;
+  	font-family: "sans-serif", verdana;
+
+}
+
+input:focus:hover{
+    outline: none;
+    box-shadow: 0px 0px 5px #61C5FA;
+    border:2px solid #5AB0DB;
+    border-radius:6px;
+    
+}
+
+button{
+	    height: 37px;
+    	width: 40%;
+    	background-color: #fcf820;
+    	margin-bottom: 25px;
+    	margin-left: 43px;
+    	font-size: 20px;
+    	font-family: arial;
+    	border: 7px solid #fcf820;
+}
+
+#error{
+	color: red;
+	visibility:;
+}

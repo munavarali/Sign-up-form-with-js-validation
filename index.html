@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SIGN UP FORM</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<script type="text/javascript" src="script1.js">
+	</script>
+</head>
+<body>
+<form name="signup">
+	<h1>SIGN UP FORM</h1>
+	<div>
+	<input type="text" name="name" placeholder="Name"  onblur="validatename(5,12);">
+	<span id="user_name"></span></br>
+	</div>
+	<input type="email" name="email" placeholder="Email Address" onblur="validateemail();">
+	<span id="user_email">  </span></br>
+	
+	<input type="password" id="pw" name="pwd" placeholder="Password" onblur="validatepwd();">
+	<span id="user_pwd" > </span></br>
+	
+	<input type="password" id="cpw" name="confirmpwd" placeholder="Confirm Password" onblur="validatepwd1();">
+	<span id="usercp_pwd" > </span></br>
+	
+
+	
+	<button type="button"  value="submit"  onclick="mysubmit();"> Create my account </button>
+</form>
+</body>
+</html>
